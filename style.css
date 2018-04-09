@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+html, body {
+    margin: 0;
+    padding: 0;
+    
+  }
+ 
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+
+  }
+  #avatar{
+      border-radius:100px;
+  }
+  
+  h1{
+      text-align: center;
+  }
+  
+  ul{
+    padding: 0;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+  }
+  li img{
+    margin: 5px;
+    width: 20px;
+  }
+  #heading{
+    color:cornflowerblue;
+    font-family: 'Old Standard TT', serif;
+  }
+  #bio{
+    font-family: 'Old Standard TT', serif;
+  }
+  .container{
+      max-width: 940px;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,0.1);
+    transition: transform 0.5s, box-shadow 0.5s;
+  }
+  #form{
+      position:relative;
+      bottom:20px;
+  }
+  
+  input {
+    border: 2px solid cornflowerblue; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+h5{
+  font-size: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+#submit{
+  -webkit-transition: color .1s ease-in-out,background-color .1s ease-in-out;
+    transition: color .1s ease-in-out,background-color .1s ease-in-out;
+    -webkit-box-shadow: inset 0 1px 0 hsla(0,0%,100%,.0125), 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.013), 0 1px 1px rgba(0,0,0,.05);
+    border-top-width: .0625rem;
+    border-bottom-width: 0.2625rem;
+  height:50px;
+  width:90px;
+background-color: cornflowerblue;
+border-radius: 5px;
+}
+  
